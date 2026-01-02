@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "worker": "node src/app/scripts/background-worker.mjs",
+    "worker": "node src/app/scripts/background-worker.js",
     "lint": "eslint"
   },
   "dependencies": {
