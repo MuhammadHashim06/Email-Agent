@@ -463,7 +463,7 @@
 import path from 'path';
 import fs from 'fs';
 import { getAttachment } from './gmail.js';
-// import { processAttachments } from '../../../public/processed/nodescript.js';
+import { processAttachments } from '../../../public/processed/nodescript.js';
 const PROCESSED_DIR = path.join(process.cwd(), 'public', 'processed');
 
 /**
