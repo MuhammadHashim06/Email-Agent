@@ -1,0 +1,25 @@
+{
+  "email": {
+    "messageId": "19b5e78cd6e98093",
+    "threadId": "19b5e78cd6e98093",
+    "subject": "Follow up",
+    "from": "Muhammad Hashim <muhammad.hashimsix@gmail.com>",
+    "date": "Sat, 27 Dec 2025 11:22:00 +0500"
+  },
+  "guardrails": {
+    "safe_count": 0,
+    "rejected": [],
+    "total_bytes": 0,
+    "safe_files": []
+  },
+  "stage1": {
+    "triage_decision": "irrelevant",
+    "confidence": 0.92,
+    "reason": "No mention of Restnutzungsdauer, AfA, §7 Abs.4 Satz 2 EStG, Finanzamt, Ablehnung, or related terms. Body is a generic follow-up/testing message and there are no attachments to review."
+  },
+  "stage2": null,
+  "final_decision": "irrelevant",
+  "extracted_fields": null,
+  "confidence": 0.92,
+  "reason": "No mention of Restnutzungsdauer, AfA, §7 Abs.4 Satz 2 EStG, Finanzamt, Ablehnung, or related terms. Body is a generic follow-up/testing message and there are no attachments to review."
+}

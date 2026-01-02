@@ -1,0 +1,99 @@
+{
+  "email": {
+    "messageId": "19b5c4a6059a4062",
+    "threadId": "19b5c49a238292b6",
+    "subject": "Fw: Ablehnung Restnutzungsdauergutachten",
+    "from": "-DerGutachter- Lars Kurjo <info@dergutachter.net>",
+    "date": "Fri, 26 Dec 2025 20:12:07 +0000"
+  },
+  "guardrails": {
+    "safe_count": 1,
+    "rejected": [],
+    "total_bytes": 3023196,
+    "safe_files": [
+      {
+        "name": "Finale Ablehnung Gutachten.pdf",
+        "size": 3023196,
+        "mimeType": "application/pdf",
+        "sha256": "f0f457df6f91b7ffa9237dce40d6626bac8b9b8eb03df4e2713fa5d3a1b9bfe5",
+        "path": "C:\\Users\\abdur\\WebstormProjects\\Lars\\Finale Ablehnung Gutachten.pdf"
+      }
+    ]
+  },
+  "stage1": {
+    "triage_decision": "needs_attachments",
+    "confidence": 0.9,
+    "reason": "Subject and body explicitly mention 'Ablehnung Restnutzungsdauergutachten' and there is a PDF attachment 'Finale Ablehnung Gutachten.pdf'. Details necessary for the tax/objection workflow are likely in the attachment, so it requires reading the document."
+  },
+  "stage2": {
+    "uploads": [
+      {
+        "file_id": "file-WExu4ijohWbp3nLLdayZTh",
+        "file_name": "Finale Ablehnung Gutachten.pdf",
+        "sha256": "f0f457df6f91b7ffa9237dce40d6626bac8b9b8eb03df4e2713fa5d3a1b9bfe5",
+        "original_path": "C:\\Users\\abdur\\WebstormProjects\\Lars\\Finale Ablehnung Gutachten.pdf",
+        "prepared_path": "C:\\Users\\abdur\\WebstormProjects\\Lars\\Finale Ablehnung Gutachten.pdf"
+      }
+    ],
+    "non_pdf_skipped": [],
+    "result": {
+      "final_decision": "process",
+      "confidence": 0.85,
+      "reason": "Das Dokument ist eine formelle Ablehnung / Stellungnahme des Finanzamts bzw. der Steuerbehörde zur Restnutzungsdauerschätzung und enthält die konkreten Ablehnungsgründe (Widerspruchsbegründung) gegenüber dem vorgelegten Gutachten sowie relevante Zahlen, Objektdaten und Verweis auf Rechtsgrundlagen. Es ist damit relevant für die Erstellung einer fachlichen Erwiderung.",
+      "files_used": [
+        {
+          "file_id": "file-WExu4ijohWbp3nLLdayZTh",
+          "file_name": "Finale Ablehnung Gutachten.pdf"
+        }
+      ],
+      "extracted_fields": {
+        "widerspruch_text": "Auf Grund des von Ihnen eingereichten Gutachtens wurde die Abschreibung erneut überprüft und festgestellt, dass weder dem Gutachten zur Kaufpreisaufteilung noch dem Gutachten der verkürzten Nutzungsdauer gefolgt werden kann. Das Aufteilungsmodell von Herrn Dr. Jacoby widerspricht in den nachfolgend genannten Punkten der höchstrichterlichen Rechtsprechung und ist in sich nicht schlüssig, da der vereinbarte Kaufpreis mit dem Verkehrswert gleichgesetzt wird und infolgedessen dem Grundsatz der Einzelbewertung der beiden Wirtschaftsgüter Gebäude und Grund-und Boden nicht Rechnung getragen wird. Es wird kritisiert, dass eine vom Bundesfinanzhof als untauglich bewertete Restwertmethode in verschleierter Form verwendet wird. Beanstandet wird weiterhin, dass Begriffsbildungen und Berechnungsformeln im Ablaufchema nach Dr. Jacoby nicht der ImmoWertV entsprechen und die Ermittlung des Gebäudeteils einerseits und des Bodenwertes andererseits nicht getrennt voneinander erfolgen. Allgemeine Grundsätze der Verkehrswertermittlung seien missachtet worden, insbesondere bei der Berechnung des Bodenwertverzinsungsbetrages und der Abzinsung des Bodenwertes nach 36 Jahren. Es wird dem ursprünglichen Gutachten vom 25.08.2020 gefolgt und die Abschreibung mit 2 % von 269.998 € (= 5.400 €) angesetzt. Im Abschnitt zur Restnutzungsdauer wird bemängelt, dass der Gutachter Herr Kurjo nicht nach DIN EN ISO/IEC 17024 akkreditiert ist, das Gutachten keine Aussagen zur eigentlichen Baustruktur (Baubestand, Tragstruktur, Decken, Fundamente etc.) enthält und nicht darlegt, warum nach Ablauf von 15 Jahren keine wirtschaftlich sinnvolle Nutzung möglich sein sollte. Ebenso wird darauf hingewiesen, dass derselbe Gutachter für dasselbe Objekt drei verschiedene Gutachten mit unterschiedlichen Werten erstellt hat (u.a. Restnutzungsdauer 36 Jahre vs. 15 Jahre).",
+        "gutachten_kernaussagen": "Das vorgelegte Gutachten kommt offenbar zu einer deutlich verkürzten Restnutzungsdauer (15 Jahre) und begründet dies mit technischen/wirtschaftlichen Gesichtspunkten (laut Ablehnungstext: wirtschaftliche und technische Gründe). Der Gutachter hat die Restnutzungsdauer unter Hinweis auf Vorgaben der ImmoWertV ermittelt. In anderen von demselben Gutachter erstellten Gutachten für dasselbe Objekt wurden jedoch abweichende Restnutzungsdauern (z. B. 36 Jahre) angegeben.",
+        "aktenzeichen": "",
+        "finanzamt_name": "",
+        "finanzamt_address": "",
+        "objektadresse": "Rosenheimer Str. 124a, 81669 München",
+        "baujahr": "",
+        "modernisierung": "",
+        "technische_defizite": "Das Ablehnungsschreiben bemängelt, dass das Gutachten keine Aussagen zur eigentlichen Baustruktur des Gebäudes enthält (Baubestand, Tragstruktur, Decken, Fundamente etc.). Es wird gesagt, dass übliche Altersminderungen bei Fenstern, Türen, Leitungen usw., die nicht zum eigentlichen Bausubstanz des Gebäudes zählen, nicht als gekürzte technische oder wirtschaftliche Nutzungsdauer herangezogen werden können.",
+        "wirtschaftliche_faktoren": "Es wird ausgeführt, dass nach dem Urteil des FG München vom 10.4.2025 das Gebäude, das bisher als Unterkunft für Flüchtlinge genutzt wurde, nach Ablauf der Genehmigung mit einer Investitionssumme von ca. 2 Mio. EUR wirtschaftlich als Hotel genutzt werden könnte. Allgemeine Ausführungen zur Notwendigkeit erhöhter Investitionen bei zunehmendem Alter eines Gebäudes werden als nicht ausreichend angesehen. Es wird angeführt, dass in München auch ältere, hochwertig sanierte Altbau-Wohnungen zu guten Mieten vermietet werden, und dass viele Gebäude über 80 Jahre alt und wirtschaftlich sinnvoll genutzt sind.",
+        "restnutzungsdauer_verwendet": "15 Jahre (im vorgelegten Restnutzungsdauergutachten), 36 Jahre (in einem Gutachten zur Kaufpreisaufteilung desselben Gutachters), 80 Jahre (als pauschal angenommene Nutzungsdauer nach der ImmoWertV wird im Text genannt).",
+        "bewertungsmethoden": "Kritik an Verwendung einer in verschleierter Form angewandten Restwertmethode und an nicht-immoWertV-konformen Begrifflichkeiten und Berechnungsformeln; die Behörde fordert Einzelbewertung von Boden und Gebäude und verweist auf ImmoWertV und BFH-Rechtsprechung.",
+        "deadlines": []
+      },
+      "missing_fields": [
+        "aktenzeichen",
+        "finanzamt_name",
+        "finanzamt_address",
+        "baujahr",
+        "modernisierung",
+        "deadlines"
+      ],
+      "raw_text_by_file": [
+        {
+          "file_id": "file-WExu4ijohWbp3nLLdayZTh",
+          "file_name": "Finale Ablehnung Gutachten.pdf",
+          "text": "Anlage zum Einkommensteuerbescheid 2024 vom 01.12.2025\n\nVermietung und Verpachtung Rosenheimer Str. 124a, 81669 München\n\nAuf Grund des von Ihnen eingereichten Gutachtens wurde die Abschreibung erneut überprüft und festgestellt, dass weder dem Gutachten zur Kaufpreisaufteilung noch dem Gutachten der verkürzten Nutzungsdauer gefolgt werden kann.\n\nGeänderte Kaufpreisaufteilung\nDas Aufteilungsmodell von Herrn Dr. Jacoby für das Objekt „München, Rosenheimer Str. 124a\" widerspricht in den nachfolgend genannten Punkten der höchstrichterlichen Rechtsprechung und ist in sich nicht schlüssig, da\n• der vereinbarte Kaufpreis mit dem Verkehrswert gleichgesetzt wird und\n• infolgedessen dem Grundsatz der Einzelbewertung der beiden Wirtschaftsgüter Gebäude und Grund-und Boden nicht Rechnung getragen wird (§ 6 Abs. 1 EStG), sondern die vom Bundesfinanzhof als untauglich bewertete Restwertmethode ... verwendet wird: Denn zur Ermittlung des Ertragswertes der baulichen Anlagen des Objektes „München, Rosenheimer Str. 124a\" wird von den Anschaffungs- und nebenkosten 927.800 € der Bodenwert 368.275 € (Grundstücksfläche 45.38/1.000 von 1607 m² x 5.050 €/m² Bodenrichtwert) und der verbleibende Anteil der Anschaffungskosten 559.525 € mit dem Ertragswert der baulichen Anlagen 559.525 € gleichgesetzt.\n\nNach der höchstrichterlichen Rechtsprechung ist ein Gesamtkaufpreis für ein bebautes Grundstück jedoch nach dem Verhältnis der Verkehrswerte oder Teilwerte auf den Grund und Boden einerseits sowie das Gebäude andererseits aufzuteilen. ...\n\nDie im Ablaufschema nach Dr. Jacoby genannten Begrifflichkeiten und die verwendeten Berechnungsformeln nicht der ImmoWertV entsprechen. ... Vielmehr wird der Reinertrag ... synthetisch aus dem Kaufpreis in Abhängigkeit des Bodenwertes und dem Barwertfaktor ... ermittelt. ... allgemeine Grundsätze der Verkehrswertermittlung missachtet wurden, insbesondere bei der Berechnung des Bodenwertverzinsungsbetrages in Höhe von 5.421,92 € der tatsächliche Bodenwert in Höhe von 368.274,58 € um einen abgezinsten Bodenwert nach 36 Jahren in Höhe von 151.397,68 € vermindert und lediglich ein „restnutzungsdauergedämpfter Bodenwert\" in Höhe von 216.876,90 € mit einem Zinsfaktor von 2,5 % verzinst wird.\n\nEs wird daher dem ursprünglichen Gutachten vom 25.08.2020 gefolgt und die Abschreibung mit 2 % von 269.998 € (= 5.400 €) angesetzt.\n\nGeänderte Restnutzungsdauer\n- Der Gutachter Herr Kurjo ist nicht von einer nach DIN EN ISO/IEC 17024 akkreditierten Stelle als Sachverständige oder Gutachter für die Wertermittlung von Grundstücken nach entsprechender Norm zertifiziert worden (DAkkS Deutsche Akkreditierungsstelle). Die Akkreditierung wird aber im BMF-Schreiben v. 22.2.2023 ... als Voraussetzung für den Nachweis einer kürzeren Nutzungsdauer gefordert.\n- Im Gutachten wird die Restnutzungsdauer unter Hinweis auf die Vorgaben der Immobilienwertermittlungsverordnung ermittelt (fiktive Nutzungsdauer, Alter, Sanierungszustand). Das Gutachten enthält keine Aussagen zur eigentlichen Baustruktur des Gebäudes wie Baubestand, Tragsstruktur, Decken, Fundamente etc., die die Restnutzungsdauer ausmachen. ... Soweit eine übliche Altersminderung bei Fenstern, Türen, Leitungen, usw. vorliegt, die nicht zur eigentlichen Bausubstanz des Gebäudes zählen, kann hieraus nicht auf eine verkürzte technische oder wirtschaftliche Nutzungsdauer geschlossen werden.\n\n- Das Gutachten führt nicht aus, warum nach dem Ablauf von 15 Jahren keine wirtschaftlich sinnvolle Nutzung des Gebäudes mehr möglich sein sollte. Dabei kann sich nicht darauf berufen werden, dass nach Ablauf von der ImmoWertverordnung angenommene pauschale Nutzungsdauer von 80 Jahren sowohl der technische als auch der wirtschaftliche Verbrauch eingetreten sei. ... im Urteil des FG München v. 10.4.2025 hat dieses ausgeführt, dass eine Immobilie ... nach Ablauf der entsprechenden Genehmigung mit einer Investitionssumme von ca. 2. Mio. EUR durchaus wirtschaftlich als Hotel sinnvoll genutzt werden könnte.\n\nIm Streitfall wurde nicht dargelegt, warum bei üblichen Sanierungsmaßnahmen keine Nutzung über einen Zeitraum von 80 Jahren hinaus möglich sein sollte.\n\nZusätzlich sei zu erwähnen, dass derselbe Gutachter für dasselbe Objekt drei verschiedene Gutachten mit komplett unterschiedlichen Werten erstellt hat und in dem von Ihnen vorgelegten Gutachten zur Kaufpreisaufteilung mit einer Restnutzungsdauer von 36 Jahren, und nicht mit den 15 Jahren laut Restnutzungsdauergutachten arbeitet."
+        }
+      ]
+    }
+  },
+  "final_decision": "process",
+  "extracted_fields": {
+    "widerspruch_text": "Auf Grund des von Ihnen eingereichten Gutachtens wurde die Abschreibung erneut überprüft und festgestellt, dass weder dem Gutachten zur Kaufpreisaufteilung noch dem Gutachten der verkürzten Nutzungsdauer gefolgt werden kann. Das Aufteilungsmodell von Herrn Dr. Jacoby widerspricht in den nachfolgend genannten Punkten der höchstrichterlichen Rechtsprechung und ist in sich nicht schlüssig, da der vereinbarte Kaufpreis mit dem Verkehrswert gleichgesetzt wird und infolgedessen dem Grundsatz der Einzelbewertung der beiden Wirtschaftsgüter Gebäude und Grund-und Boden nicht Rechnung getragen wird. Es wird kritisiert, dass eine vom Bundesfinanzhof als untauglich bewertete Restwertmethode in verschleierter Form verwendet wird. Beanstandet wird weiterhin, dass Begriffsbildungen und Berechnungsformeln im Ablaufchema nach Dr. Jacoby nicht der ImmoWertV entsprechen und die Ermittlung des Gebäudeteils einerseits und des Bodenwertes andererseits nicht getrennt voneinander erfolgen. Allgemeine Grundsätze der Verkehrswertermittlung seien missachtet worden, insbesondere bei der Berechnung des Bodenwertverzinsungsbetrages und der Abzinsung des Bodenwertes nach 36 Jahren. Es wird dem ursprünglichen Gutachten vom 25.08.2020 gefolgt und die Abschreibung mit 2 % von 269.998 € (= 5.400 €) angesetzt. Im Abschnitt zur Restnutzungsdauer wird bemängelt, dass der Gutachter Herr Kurjo nicht nach DIN EN ISO/IEC 17024 akkreditiert ist, das Gutachten keine Aussagen zur eigentlichen Baustruktur (Baubestand, Tragstruktur, Decken, Fundamente etc.) enthält und nicht darlegt, warum nach Ablauf von 15 Jahren keine wirtschaftlich sinnvolle Nutzung möglich sein sollte. Ebenso wird darauf hingewiesen, dass derselbe Gutachter für dasselbe Objekt drei verschiedene Gutachten mit unterschiedlichen Werten erstellt hat (u.a. Restnutzungsdauer 36 Jahre vs. 15 Jahre).",
+    "gutachten_kernaussagen": "Das vorgelegte Gutachten kommt offenbar zu einer deutlich verkürzten Restnutzungsdauer (15 Jahre) und begründet dies mit technischen/wirtschaftlichen Gesichtspunkten (laut Ablehnungstext: wirtschaftliche und technische Gründe). Der Gutachter hat die Restnutzungsdauer unter Hinweis auf Vorgaben der ImmoWertV ermittelt. In anderen von demselben Gutachter erstellten Gutachten für dasselbe Objekt wurden jedoch abweichende Restnutzungsdauern (z. B. 36 Jahre) angegeben.",
+    "aktenzeichen": "",
+    "finanzamt_name": "",
+    "finanzamt_address": "",
+    "objektadresse": "Rosenheimer Str. 124a, 81669 München",
+    "baujahr": "",
+    "modernisierung": "",
+    "technische_defizite": "Das Ablehnungsschreiben bemängelt, dass das Gutachten keine Aussagen zur eigentlichen Baustruktur des Gebäudes enthält (Baubestand, Tragstruktur, Decken, Fundamente etc.). Es wird gesagt, dass übliche Altersminderungen bei Fenstern, Türen, Leitungen usw., die nicht zum eigentlichen Bausubstanz des Gebäudes zählen, nicht als gekürzte technische oder wirtschaftliche Nutzungsdauer herangezogen werden können.",
+    "wirtschaftliche_faktoren": "Es wird ausgeführt, dass nach dem Urteil des FG München vom 10.4.2025 das Gebäude, das bisher als Unterkunft für Flüchtlinge genutzt wurde, nach Ablauf der Genehmigung mit einer Investitionssumme von ca. 2 Mio. EUR wirtschaftlich als Hotel genutzt werden könnte. Allgemeine Ausführungen zur Notwendigkeit erhöhter Investitionen bei zunehmendem Alter eines Gebäudes werden als nicht ausreichend angesehen. Es wird angeführt, dass in München auch ältere, hochwertig sanierte Altbau-Wohnungen zu guten Mieten vermietet werden, und dass viele Gebäude über 80 Jahre alt und wirtschaftlich sinnvoll genutzt sind.",
+    "restnutzungsdauer_verwendet": "15 Jahre (im vorgelegten Restnutzungsdauergutachten), 36 Jahre (in einem Gutachten zur Kaufpreisaufteilung desselben Gutachters), 80 Jahre (als pauschal angenommene Nutzungsdauer nach der ImmoWertV wird im Text genannt).",
+    "bewertungsmethoden": "Kritik an Verwendung einer in verschleierter Form angewandten Restwertmethode und an nicht-immoWertV-konformen Begrifflichkeiten und Berechnungsformeln; die Behörde fordert Einzelbewertung von Boden und Gebäude und verweist auf ImmoWertV und BFH-Rechtsprechung.",
+    "deadlines": []
+  },
+  "confidence": 0.85,
+  "reason": "Das Dokument ist eine formelle Ablehnung / Stellungnahme des Finanzamts bzw. der Steuerbehörde zur Restnutzungsdauerschätzung und enthält die konkreten Ablehnungsgründe (Widerspruchsbegründung) gegenüber dem vorgelegten Gutachten sowie relevante Zahlen, Objektdaten und Verweis auf Rechtsgrundlagen. Es ist damit relevant für die Erstellung einer fachlichen Erwiderung."
+}

@@ -1,0 +1,55 @@
+[HEADER]
+GSC Germany GmbH
+Tölzer Straße 37
+82031 Grünwald
+E-Mail: info@gsc-germany.de
+
+[ADRESSAT]
+Finanzamt München
+Dienststelle für Grundbesitzbewertung
+Postfach 21 02 55
+81502 München
+
+[ORT_DATUM]
+Grünwald, 27. Dezember 2025
+
+[BETREFF]
+Stellungnahme zur Ablehnung des Restnutzungsdauergutachtens gemäß § 7 Abs. 4 Satz 2 EStG; Objekt: Rosenheimer Str. 124a, 81669 München
+
+[ANREDE]
+Sehr geehrte Damen und Herren,
+
+[ABSCHNITT_I_EINLEITUNG]
+Gegenstand dieser Stellungnahme ist die Würdigung der von Ihnen geäußerten Ablehnungsgründe gegen das vorgelegte Restnutzungsdauergutachten (Herrn Kurjo) sowie die rechtliche und fachliche Einordnung der von Herrn Dr. Jacoby angewandten Aufteilungsmethode. Ziel ist die sachlich-fachliche Beurteilung, ob die ablehnenden Feststellungen den gesetzlichen und fachlichen Anforderungen an die Ermittlung einer verkürzten Restnutzungsdauer nach § 7 Abs. 4 Satz 2 EStG gerecht werden, und die Benennung konkreter Ergänzungs‑ und Prüfungsbedarfe.
+
+[ABSCHNITT_II_GESETZLICHE_GRUNDLAGE]
+§ 7 Abs. 4 Satz 2 EStG erlaubt eine von den typisierten AfA‑Regelungen abweichende Restnutzungsdauer bei Nachweis kürzerer betriebsgewöhnlicher Nutzungsdauer. Maßstab sind die tatsächlichen technischen und wirtschaftlichen Verhältnisse. Ergänzend sind die Regelungen der ImmoWertV sowie die Vorgaben des BMF‑Schreibens vom 22.02.2023 bei der Bewertung von Grund und Boden bzw. baulichen Anlagen zu berücksichtigen. Die höchstrichterliche Rechtsprechung des BFH (insbesondere Urteil IX R 2/12) verbietet die Verwechslung des vereinbarten Kaufpreises mit dem Verkehrswert sowie Verfahren, die in verschleierter Form eine unzulässige Restwertmethode anwenden. Das FG Münster (11 K 4108/18 E) hat ergänzend Kriterien zur Beurteilung der Wertermittlung und Abbildung von wirtschaftlichen Verwertungsoptionen herausgearbeitet.
+
+[ABSCHNITT_III_WUERDIGUNG_ABLEHNUNG]
+Die von Ihnen dargestellte fachliche Kritik an dem Aufteilungsmodell von Herrn Dr. Jacoby ist rechtlich fundiert, soweit seine Methode den Kaufpreis pauschal mit dem Verkehrswert gleichsetzt und nicht die zwingende Trennung von Gebäude- und Bodenbewertung vornimmt. Eine derartige Verrechnung entspricht nicht den Maßstäben des BFH. Die Ablehnung des Aufteilungsmodells ist daher nachvollziehbar. Hinsichtlich des vorgelegten Restnutzungsdauergutachtens von Herrn Kurjo bestehen jedoch unterschiedliche Kategorien von Beanstandungen: formale Anforderungen (z. B. Nachweis der Qualifikation nach BMF) und inhaltliche Anforderungen (z. B. fehlende bautechnische Detaillierung, wirtschaftliche Nachweise). Beide Kategorien sind getrennt zu prüfen; eine pauschale Zurückweisung allein mit dem Hinweis auf fehlende ISO/IEC 17024‑Akkreditierung greift rechtlich nicht ohne Weiteres durch.
+
+[ABSCHNITT_IV_TECHNISCHE_BEGRUENDUNG]
+Die Ermittlung einer verkürzten Restnutzungsdauer erfordert eine fundierte bauzustandsbezogene Analyse. Maßgebliche technische Elemente sind: Tragstruktur (Fundamente, Wände, Stützen), Geschoßdecken, Dachkonstruktion, Fassade, Haustechnik (Heizung, Lüftung, Sanitär, Elektro), feuchtigkeitsanfällige Bauteile sowie bauphysikalische Mängel. Aus diesen Elementen sind Bauteile zu bilden und deren Restnutzungsdauern gemäß einschlägigen Tabellenwerken, langjähriger Erfahrungswerte und ggf. Materialprüfungen abzuleiten. Fehlt eine explizite Bauteilauflistung, ist die Transparenz der Substanzbewertung eingeschränkt. Gleichwohl rechtfertigt der Nachweis erheblicher substanz‑ oder nutzungsbedingter Eingriffe (z. B. notwendige konstruktive Ertüchtigungen, Brandschutz‑ oder Schallschutzmaßnahmen) eine Reduktion der verbleibenden wirtschaftlichen Lebensdauer, wenn die zu erwartenden Investitionsaufwendungen in Relation zum erzielbaren Ertrag die Fortführung der bisherigen Nutzung ökonomisch unvernünftig machen.
+
+[ABSCHNITT_V_WIRTSCHAFTLICHE_BEGRUENDUNG]
+Die wirtschaftliche Beurteilung hat die Verhältnisse des lokalen Marktes und die Verwertungsperspektiven zu berücksichtigen. Relevante Aspekte sind: zu erwartende Investitionskosten für Ertüchtigung bzw. Umnutzung, Restmietfähigkeit im örtlichen Markt, zu erzielende Mieterträge im Vergleich zu notwendigen Investitionsrenditen, Finanzierungssituation als zwar nicht maßgeblich für den Verkehrswert, jedoch relevant für die Plausibilisierung von Investitionsabsichten, sowie vergleichende Betrachtung marktgängiger Verwertungsoptionen (z. B. Fortführung als Wohnraum, Umnutzung zu Hotel/Wohnen, teilweiser Rückbau). Das vom Finanzamt zitierte Erkenntnis des FG München, wonach nach Investitionen ein Betrieb als Hotel wirtschaftlich möglich sein kann, zeigt, dass allein die Möglichkeit einer theoretischen Umnutzung die Annahme einer insgesamt verkürzten technischen Restnutzungsdauer nicht automatisch ausschließt; entscheidend ist hingegen die Relation zwischen erforderlichen Investitionskosten und dem wirtschaftlich erzielbaren Ergebnis. Die von Ihnen genannten Summen (z. B. Investitionsbedarf ca. 2 Mio. EUR) sind in einem Kapitalwertvergleich und in der Bilanzierung der verbleibenden Restnutzungsdauer zu quantifizieren.
+
+[ABSCHNITT_VI_METHODISCHE_HERLEITUNG]
+Die methodische Herleitung einer verkürzten Restnutzungsdauer ist dreistufig vorzunehmen: 1) Bauteil‑ und Substanzaufnahme (Inventar), 2) technische Restnutzungsabschätzung je Bauteil unter Bezug auf einschlägige Tabellen, Normen und Befunde, 3) ökonomische Überprüfung durch Kapitalwertbetrachtung (gegenüber Fortführungsoptionen und Umnutzungsinvestitionen). Bewertungsverfahren sind entsprechend dem Bewertungsanlass zu wählen: Ertragswertverfahren zur Abbildung fortlaufender Erträge, Sachwertverfahren zur Abbildung der Substanz und Vergleichswertermittlung bei geeigneten Vergleichsdaten. Eine ausschließlich „restwertähnliche“ Herleitung, die den Gebäudeanteil lediglich als Residualgröße des Kaufpreises bestimmt, ist unzulässig. Die Berechnung des Bodenwertverzinsungsbetrags hat nach den Vorgaben der ImmoWertV (Bodenwert × Liegenschaftszinssatz) zu erfolgen; hiervon abweichende Ansatzpunkte sind zu begründen.
+
+[ABSCHNITT_VII_RECHTLICHE_EINORDNUNG]
+Die Rechtsprechung des BFH (IX R 2/12) stellt klar, dass Aufteilungen, die den Kaufpreis als Verkehrswert pauschal übernehmen und nicht die eigenständige Bewertung von Grund und Boden einerseits sowie baulichen Anlagen andererseits vornehmen, nicht den gesetzlichen Anforderungen genügen. Das BMF‑Schreiben vom 22.02.2023 fordert einen nachvollziehbaren Nachweis für eine vom Tabellenwert abweichende Restnutzungsdauer. Das Urteil des FG Münster (11 K 4108/18 E) betont die Notwendigkeit, wirtschaftliche Verwertungsoptionen in die Beurteilung einzubeziehen. Diese Entscheidungen begründen die Doppelpflicht: Verfahrensrichtigkeit (keine Restwertverschleierung) und inhaltliche Begründung (technisch‑wirtschaftliche Substanzanalyse).
+
+[ABSCHNITT_VIII_EINZELWUERDIGUNG]
+1. Vorwurf der fehlenden Akkreditierung nach DIN EN ISO/IEC 17024: Die DIN EN ISO/IEC 17024 regelt die Zertifizierung von Personen; sie ist kein gesetzlich zwingender Nachweis der Sachkunde eines öffentlich bestellten und vereidigten Sachverständigen. Öffentlich bestellte und vereidigte Sachverständige unterliegen hohem Vertrauensschutz und Qualifikationsanforderungen; insofern ersetzt die Akkreditierung nicht zwingend die fachliche Begründung eines Gutachtens. Ein Mangel liegt nur vor, wenn durch das Gutachten selbst keine hinreichende fachliche Nachvollziehbarkeit der Qualifikation und der angewandten Methoden ersichtlich ist. 2. Fehlende Aussagen zur Baustruktur: Soweit das vorgelegte Gutachten keine ausdrückliche Bauteilaufstellung oder keine detaillierten Befunde zu Tragstruktur, Decken, Fundamenten enthält, ist dies ein formeller Mangel hinsichtlich der Nachvollziehbarkeit. Für die Annahme einer deutlich verkürzten RND sind jedoch nicht zwingend vollständige laboranalytische Befunde erforderlich; vielmehr genügt eine schlüssige Darstellung der maßgeblichen Mängel und deren zu erwartenden Auswirkung auf Restnutzungsdauer und Wirtschaftlichkeit. Fehlt diese Darstellung, ist ein Ergänzungsgutachten zu verlangen. 3. Nicht nachvollziehbarer Nachweis der Unwirtschaftlichkeit nach 15 Jahren: Die bloße Aussage, dass nach 15 Jahren keine wirtschaftliche Nutzung möglich sei, ohne Kapitalwertrechnung, Kosten‑ und Erlösrechnung oder konkrete Investitionsabschätzungen, genügt nicht. Demgegenüber ist die Vorlage einer vergleichenden Wirtschaftlichkeitsrechnung (Fortführung vs. umfassende Ertüchtigung/Umnutzung) erforderlich. 4. Bezug auf FG München: Das zitierte FG‑Ergebnis zeigt die Möglichkeit von Umnutzungen; es entbindet jedoch nicht von der Pflicht, die konkrete Umsetzbarkeit am betrachteten Objekt zu prüfen. 5. Wiederkehrende unterschiedliche Gutachtenwerte desselben Gutachters: Differierende Ergebnisse desselben Sachverständigen bedürfen der Erläuterung, insbesondere hinsichtlich Bewertungsanlass, Datenlage, zugrunde gelegter Annahmen und etwaiger Änderungen des Marktumfelds oder des Gebäudezustands. Ohne solche Erläuterung ist die Glaubwürdigkeit der abgeleiteten Restnutzungsdauern eingeschränkt.
+
+[ABSCHNITT_IX_SCHLUSSFOLGERUNG]
+Die Ablehnung des Aufteilungsmodells von Herrn Dr. Jacoby ist fachlich und rechtlich begründet und wird bestätigt. Die Zurückweisung des Restnutzungsdauergutachtens von Herrn Kurjo ausschließlich mit dem Hinweis auf fehlende ISO/IEC 17024‑Akkreditierung ist rechtlich nicht ausreichend. Inhaltlich begründete Kritik (insbesondere die fehlende Bauteilaufstellung und die unzureichende wirtschaftliche Nachweiskette für die Annahme einer RND von 15 Jahren) ist materiell relevant und rechtfertigt die Aufforderung zur Nachbesserung. Ich beantrage daher: 1. Annahme der Ablehnung des Aufteilungsmodells von Dr. Jacoby. 2. Aufforderung an Herrn Kurjo zur Erstellung eines Ergänzungsgutachtens mit folgenden Mindestinhalten: a) vollständige Bauteilaufstellung mit Restnutzungsdauern und Befunddokumentation, b) nachvollziehbare technische Begründung der aufgeworfenen Mängel (Tragstruktur, Decken, Fundamente, Haustechnik), c) wirtschaftliche Gegenrechnung (Kapitalwertvergleich) zur Unwirtschaftlichkeit der Fortführung der bisherigen Nutzung und zur Plausibilisierung der verkürzten RND, d) Erläuterung der Qualifikation des Gutachters und Angabe, aus welchen sachverständigen Grundlagen die Entscheidung zugunsten der RND von 15 Jahren getroffen wurde, e) Begründung etwaiger Abweichungen zu früheren Gutachten desselben Sachverständigen. 3. Nach Eingang des Ergänzungsgutachtens erneute fachliche Überprüfung unter Berücksichtigung der genannten Rechtsgrundlagen (insbesondere BFH IX R 2/12, BMF‑Schreiben 22.02.2023, FG‑Rechtsprechung). Nur auf Grundlage einer solchen ergänzten, nachvollziehbaren technischen und wirtschaftlichen Substantiierung kann eine rechts- und fachkonforme Entscheidung über die Anerkennung einer kürzeren Restnutzungsdauer nach § 7 Abs. 4 Satz 2 EStG getroffen werden.
+
+[SIGNATUR]
+Mit freundlichen Grüßen
+
+GSC Germany GmbH
+Lars Kurjo
+Geschäftsführer
+Sachverständiger für bebaute und unbebaute Grundstücke

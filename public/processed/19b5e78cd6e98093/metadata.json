@@ -1,0 +1,14 @@
+{
+  "messageId": "19b5e78cd6e98093",
+  "threadId": "19b5e78cd6e98093",
+  "subject": "Follow up",
+  "from": "Muhammad Hashim <muhammad.hashimsix@gmail.com>",
+  "date": "Sat, 27 Dec 2025 11:22:00 +0500",
+  "snippet": "this is a follow up to check how its perform on negative email ie which should not process",
+  "body": {
+    "html": "<div dir=\"ltr\">this is a follow up to check how its perform on negative email ie which should not process</div>\r\n",
+    "text": "this is a follow up to check how its perform on negative email ie which\r\nshould not process\r\n"
+  },
+  "attachments": [],
+  "processedAt": "2025-12-27T06:22:27.825Z"
+}

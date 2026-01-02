@@ -1,0 +1,59 @@
+[HEADER]
+GSC Germany GmbH
+Tölzer Straße 37
+82031 Grünwald
+E-Mail: info@gsc-germany.de
+
+[ADRESSAT]
+Finanzamt München
+Sachbearbeitung Vermietung und Verpachtung
+Postanschrift: Postfach 20 01 02
+80333 München
+
+[ORT_DATUM]
+Grünwald, den 26. Dezember 2025
+
+[BETREFF]
+Stellungnahme zur Ablehnung des Restnutzungsdauergutachtens gemäß § 7 Abs. 4 Satz 2 EStG — Objekt: Vermietung und Verpachtung, Rosenheimer Str. 124a, 81669 München
+
+[ANREDE]
+Sehr geehrte Damen und Herren,
+
+[ABSCHNITT_I_EINLEITUNG]
+Ziel dieser Stellungnahme ist die formelle und rechtsverbindliche Erwiderung auf die von Ihnen mitgeteilt beanstandeten Punkte zur Ablehnung des von der GSC Germany GmbH vorgelegten Restnutzungsdauergutachtens im Zusammenhang mit der Kaufpreisaufteilung für das Objekt Rosenheimer Str. 124a, 81669 München. Anlass ist Ihre Ablehnung mit der Begründung unzutreffender Methodenwahl und unzureichender Begründung der Restnutzungsdauer. Die nachfolgenden Ausführungen erläutern die zugrunde liegenden Rechtsgrundlagen, die technische und wirtschaftliche Herleitung der Restnutzungsdauer sowie die methodische und rechtliche Einordnung der angewandten Bewertungsverfahren und nehmen zu den einzelnen Beanstandungen konkret Stellung.
+
+[ABSCHNITT_II_GESETZLICHE_GRUNDLAGE]
+§ 7 Abs. 4 Satz 2 Einkommensteuergesetz (EStG) räumt dem Steuerpflichtigen und den zuständigen Finanzbehörden die Möglichkeit ein, die Restnutzungsdauer auf der Grundlage eines Gutachtens eines allgemein anerkannten Sachverständigen festzustellen. Maßgeblich sind die tatsächlichen Verhältnisse und die nachvollziehbare, fachlich fundierte Darstellung technischer und wirtschaftlicher Aspekte. Gesetzeszweck ist die realitätsgerechte Zuordnung der Anschaffungs- und Herstellungskosten auf Grund und Gebäude und die damit verbundene Feststellung der für die steuerliche Absetzung relevanten Restnutzungsdauer. Die verfahrensrechtliche Zulässigkeit und inhaltliche Wirksamkeit eines solchen Gutachtens richtet sich nach den allgemeinen Maßstäben der Fachkunde, Nachprüfbarkeit und Nachvollziehbarkeit; formale Akkreditierungen sind hierfür nicht zwingend vorgeschrieben.
+
+[ABSCHNITT_III_WUERDIGUNG_ABLEHNUNG]
+Die von Ihnen aufgeführten Beanstandungen — Gleichsetzung des vereinbarten Kaufpreises mit dem Verkehrswert, mangelnde Einzelbewertung von Gebäude und Grund und Boden, untaugliche Restwertmethode, synthetische Herleitung von Ertragsgrößen, unberücksichtigte lokale Vergleichsmieten und Wohnungsgrößen, sowie fehlende Angaben zur Bausubstanz — sind inhaltlich zu prüfen. Die in Ihrer Ablehnung vertretenen Einwände betreffen methodische Fragen und die Beweiswürdigung. Maßgeblich ist, ob das vorgelegte Gutachten die wesentlichen technischen und wirtschaftlichen Faktoren substantiell darlegt und die Herleitung der Restnutzungsdauer für eine Nachprüfung offenlegt. Eine formale Ablehnung allein mit Verweis auf nicht erfolgte Akkreditierung oder die Behauptung unzureichender Detaillierung genügt nicht, wenn die fachlichen Feststellungen des Gutachtens nachvollziehbar und nachprüfbar sind.
+
+[ABSCHNITT_IV_TECHNISCHE_BEGRUENDUNG]
+Die Feststellung einer verkürzten Restnutzungsdauer beruht auf einer technischen Objektanalyse, die das Baujahr, die Konstruktionsarten der wesentlichen Bauteile (tragende Außenwände, Decken- und Dachkonstruktionen), den Zustand von Fenstern und Außentüren, die vorhandene Haustechnik (Heizung, Sanitär, Elektro), dokumentierte Modernisierungsmaßnahmen sowie den aktuellen Instandhaltungsstand berücksichtigt. Aus solchen Merkmalen lassen sich die verbleibenden Gebrauchsdauern der maßgeblichen Bauteilgruppen ableiten. Bei dem streitgegenständlichen Objekt begründen die dokumentierten Abnutzungs- und Erneuerungsbedarfe, die Qualität der vorliegenden Modernisierungen und das Verhältnis von zu erwartenden Investitionskosten zum erzielbaren Ertrag eine verbleibende wirtschaftliche Lebensdauer von 15 Jahren. Diese Feststellung ist technisch zu unterscheiden von einer rein theoretischen AfA-Nutzungsdauer; sie berücksichtigt den tatsächlichen Zustand und daraus resultierende wirtschaftliche Erneuerungszyklen der Bauteile. Das Gutachten benennt die maßgeblichen Bauteile und deren Restnutzungsdauern sowie die für die Bewertung relevanten Besichtigungs- und Dokumentationsbefunde, sodass eine technische Nachvollziehbarkeit gegeben ist.
+
+[ABSCHNITT_V_WIRTSCHAFTLICHE_BEGRUENDUNG]
+Die wirtschaftliche Bewertung der Restnutzungsdauer berücksichtigt neben der technischen Restnutzungsdauer die am Markt erzielbaren Erträge, zu erwartende Instandsetzungs- und Modernisierungsaufwendungen sowie die Verhältnisrechnung zwischen verbleibendem Ertragspotenzial und erforderlichen Investitionen. Insbesondere wurde geprüft, ob bei Abwägung der zu erwartenden Investitionen gegenüber dem erzielbaren Kapitalwert eine sinnvolle wirtschaftliche Nutzung über 15 Jahre hinaus darstellbar ist. Lokale Mietspiegel, Vergleichsmieten und Wohnungsgrößen wurden in die Ertragsbetrachtung einbezogen, soweit belastbare Vergleichswerte zur Verfügung standen; dort, wo lokale Vergleichswerte für die genaue Aufteilung von Grund und Gebäude nicht trennscharf sind, ist eine synthetische Herleitung des jährlichen Reinertrags aus dem Kaufpreis marktüblich und sachgerecht. Die Möglichkeit alternativer Nutzungen (z. B. Umnutzung) wurde geprüft; die erforderlichen Investitionsvolumina und die damit verbundenen wirtschaftlichen Risiken lassen einen wirtschaftlich sinnvollen Übergang außerhalb der angenommenen Restnutzungsdauer nicht erwarten.
+
+[ABSCHNITT_VI_METHODISCHE_HERLEITUNG]
+Das Gutachten stützt sich auf die in der Praxis anerkannten Bewertungsmethoden: substanzorientierte Besichtigung und Dokumentenprüfung, marktbezogene Vergleichsbetrachtung und ertragswertorientierte Modellierung. Die Aufteilung des Kaufpreises in Boden- und Gebäudewert erfolgte anhand marktlicher Indikatoren, vorhandener Vergleichswerte und, dort wo separate Marktdaten fehlten oder nicht aussagekräftig waren, mittels einer synthetischen Herleitung des jährlichen Reinertrags aus dem Kaufpreis. Die Herleitung des Barwertfaktors und des Liegenschaftszinssatzes erfolgte aus aktuellen Marktzinsbeobachtungen für Vergleichsobjekte in München und wurde offen dargelegt. Ein gedämpfter Bodenwert wurde verwendet, wenn die objektbezogenen Lage- und Nutzungseinschränkungen einen vollen Lageaufschlag nicht rechtfertigen. Die gewählte Restnutzungsdauer von 15 Jahren resultiert aus der kumulativen Bewertung der technischen Restnutzungsdauern der maßgeblichen Bauteilgruppen, der dokumentierten Modernisierungen und der wirtschaftlichen Abwägung von Investitionsbedarf gegenüber laufendem Ertrag.
+
+[ABSCHNITT_VII_RECHTLICHE_EINORDNUNG]
+Die rechtliche Einordnung ist wie folgt: Der BFH (Urteil IX R 2/12) hat klargestellt, dass bei der kaufpreisorientierten Bewertung und Aufteilung Markt- und Einzelfallbezogenheit Vorrang haben und dass eine marktgerechte, nachvollziehbare Einzelfallbewertung nicht grundsätzlich an starren Verfahrensformen scheitern darf. Das FG Münster (11 K 4108/18 E) hat im Ergebnis bestätigt, dass abweichende Restnutzungsdauern zulässig sind, soweit sie technisch-wirtschaftlich begründet und dokumentiert sind. Demnach ist die Anwendung einer synthetischen Methode oder einer verkürzten Restnutzungsdauer nicht per se unzulässig; entscheidend ist die Nachvollziehbarkeit der Herleitung und die Übereinstimmung mit den tatsächlichen Verhältnissen. Das Fehlen einer Akkreditierung nach DIN EN ISO/IEC 17024 berührt die materielle Zulässigkeit eines Gutachtens nicht; diese Norm regelt die Zertifizierung von Personen, nicht die Anerkennung von Sachverständigengutachten für steuerliche Zwecke. Maßgeblich bleibt die fachliche Qualifikation und die Nachprüfbarkeit der vorgelegten Ausführungen.
+
+[ABSCHNITT_VIII_EINZELWUERDIGUNG]
+1. Zur Behauptung der Gleichsetzung des Kaufpreises mit dem Verkehrswert: Das Gutachten dokumentiert differenziert, in welcher Weise Marktpreis, aufteilungsrelevante Vergleichsgrößen und objektbezogene Anpassungsfaktoren berücksichtigt wurden. Die Kaufpreisposition wurde nicht unreflektiert mit dem Verkehrswert gleichgesetzt, sondern als ein wesentliches, jedoch zu analysierendes Indiz in die Gesamtwürdigung einbezogen.  
+2. Zur Beanstandung der synthetischen Ermittlung des Reinertrags: Eine synthetische Ableitung ist zulässig, wenn marktbezogene Einzelinformationen zur Trennung von Boden- und Gebäudewert nicht hinreichend differenzierbar sind; dies entspricht gängiger Bewertungspraktik und der Rechtsprechung, sofern die Herleitung transparent erfolgt. Die Berechnungen zum Barwertfaktor und zur Bodenwertverzinsung wurden auf Basis marktüblicher Zinssätze und der abgeleiteten Restnutzungsdauer nachvollziehbar dargestellt.  
+3. Zur Forderung nach Berücksichtigung lokaler Vergleichsmieten und Wohnungsgrößen: Vergleichsmieten wurden dort verwendet, wo belastbare und vergleichbare Marktwerte vorlagen. Abweichungen wurden begründet, insbesondere bei fehlender Vergleichbarkeit aufgrund heterogener Wohnungsgrößen oder spezifischer Objektmerkmale.  
+4. Zur Kritik an fehlenden Angaben zur Bausubstanz: Das streitgegenständliche Gutachten enthält konkrete Feststellungen zum Baujahr, zur Konstruktionsart, zu den wesentlichen Bauteilzuständen sowie zu durchgeführten Modernisierungen. Aus diesen technischen Feststellungen wurde die Restnutzungsdauer abgeleitet. Die gegenteilige Behauptung entbehrt somit der Grundlage. Sollte die Behörde konkrete ergänzende Nachfragen zu einzelnen Bauteilen haben, sind diese gezielt zu benennen; eine pauschale Ablehnung mit dem Hinweis auf fehlende Beschreibungen ist nicht gerechtfertigt.  
+5. Zur Differenz zwischen 36 Jahren (Kaufpreisaufteilung) und 15 Jahren (RND-Gutachten): Unterschiedliche Bewertungsanlässe und methodische Zielgrößen können zu unterschiedlichen Annahmen führen. Die im Rahmen einer Kaufpreisaufteilung verwendete länger anzunehmende Nutzungsdauer stellt eine marktorientierte Annahme für die Preisallokation dar; die für steuerliche AfA relevante Restnutzungsdauer muss die aktuellen technischen und wirtschaftlichen Verhältnisse des Objekts widerspiegeln und kann daher verkürzt sein. Eine derartige Differenz ist zulässig, soweit sie begründet und dokumentiert ist; das Gutachten liefert diese Begründung.
+
+[ABSCHNITT_IX_SCHLUSSFOLGERUNG]
+Zusammenfassend ist festzustellen, dass das vorgelegte Restnutzungsdauergutachten den Anforderungen des § 7 Abs. 4 Satz 2 EStG genügt. Die angewandten Methoden sind fachlich anerkannt, die technische und wirtschaftliche Herleitung der Restnutzungsdauer von 15 Jahren ist nachvollziehbar dargelegt und entspricht den tatsächlichen Verhältnissen des Objekts. Die von der Behörde erhobenen Einwände greifen nicht substantiiert genug, um eine generelle Unbrauchbarkeit des Gutachtens darzulegen. Ich bitte daher um erneute Prüfung Ihrer Ablehnung unter Berücksichtigung der vorstehenden Ausführungen und um Anerkennung des Gutachtens als Grundlage für die steuerliche Festsetzung der Restnutzungsdauer. Sollte die Behörde konkrete, punktuelle Ergänzungswünsche haben, wird angeboten, diese durch ergänzende Unterlagen oder eine ergänzende Ortsbesichtigung kurzfristig zu beantworten.
+
+[SIGNATUR]
+Mit freundlichen Grüßen
+
+GSC Germany GmbH
+Lars Kurjo
+Geschäftsführer
+Sachverständiger für bebaute und unbebaute Grundstücke
