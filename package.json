@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "worker": "node src/app/scripts/background-worker.mjs",
     "lint": "eslint"
   },
   "dependencies": {
@@ -15,7 +16,6 @@
     "html-pdf": "^1.5.0",
     "lucide-react": "^0.561.0",
     "mammoth": "^1.11.0",
-    "mammoth-colors": "^1.0.2",
     "mongoose": "^9.0.2",
     "next": "16.1.1",
     "next-auth": "^5.0.0-beta.30",
