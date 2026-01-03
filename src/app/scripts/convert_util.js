@@ -10,7 +10,7 @@ const execFileAsync = promisify(execFile);
 
 const args = process.argv.slice(2);
 if (args.length < 1) {
-    console.error("Usage: node convert_util.mjs <input_file> [--outdir <output_dir>]");
+    console.error("Usage: node convert_util.js <input_file> [--outdir <output_dir>]");
     process.exit(1);
 }
 

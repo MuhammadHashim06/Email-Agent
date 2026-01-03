@@ -24,7 +24,7 @@ const outputPath =
 
 if (!inputPath) {
   console.error(
-    "Usage: node generate_stellungnahme_full.mjs <input.json> --out <output.txt>"
+    "Usage: node generate_stellungnahme_full.js <input.json> --out <output.txt>"
   );
   process.exit(1);
 }

@@ -8,7 +8,7 @@ const outIndex = process.argv.indexOf("--out");
 const outputPath = outIndex !== -1 ? process.argv[outIndex + 1] : "output.docx";
 
 if (!inputPath) {
-    console.error("Usage: node create_docx.mjs <input.txt> --out <output.docx>");
+    console.error("Usage: node create_docx.js <input.txt> --out <output.docx>");
     process.exit(1);
 }
 

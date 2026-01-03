@@ -549,7 +549,7 @@ export async function processEmailAttachments(accessToken, message) {
         const analysisPath = path.join(attachmentDir, 'analysis.json');
 
         await runScript('node', [
-            path.join(scriptsDir, 'Process_email_json.mjs'),
+            path.join(scriptsDir, 'Process_email_json.js'),
             metadataPath,
             '--out', analysisPath
         ]);
@@ -575,7 +575,7 @@ export async function processEmailAttachments(accessToken, message) {
             // 2. Generate Text Content
             const textPath = path.join(attachmentDir, 'stellungnahme.txt');
             await runScript('node', [
-                path.join(scriptsDir, 'generate_stellungnahme.mjs'),
+                path.join(scriptsDir, 'generate_stellungnahme.js'),
                 analysisPath,
                 '--out', textPath
             ]);
@@ -584,7 +584,7 @@ export async function processEmailAttachments(accessToken, message) {
             console.log(`[Pipeline] Creating DOCX...`);
             const docxPath = path.join(attachmentDir, 'Stellungnahme.docx');
             await runScript('node', [
-                path.join(scriptsDir, 'create_docx.mjs'),
+                path.join(scriptsDir, 'create_docx.js'),
                 textPath,
                 '--out', docxPath
             ]);
@@ -593,7 +593,7 @@ export async function processEmailAttachments(accessToken, message) {
             // Note: convert_util uses 'soffice' in the background
             console.log(`[Pipeline] Converting to PDF...`);
             await runScript('node', [
-                path.join(scriptsDir, 'convert_util.mjs'),
+                path.join(scriptsDir, 'convert_util.js'),
                 docxPath,
                 '--outdir', attachmentDir
             ]);

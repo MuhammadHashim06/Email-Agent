@@ -364,7 +364,7 @@ function buildFinalOutput({ emailObj, guardrails, triage1, stage2 }) {
 async function main() {
     const args = process.argv.slice(2);
     const jsonPath = args[0];
-    if (!jsonPath) die("Missing email JSON path. Example: node process_email_json.mjs ./email.json --out ./final.json");
+    if (!jsonPath) die("Missing email JSON path. Example: node process_email_json.js ./email.json --out ./final.json");
 
     const outIdx = args.indexOf("--out");
     const outPath = outIdx >= 0 ? args[outIdx + 1] : null;
