@@ -58,13 +58,20 @@ export async function sendEmail(accessToken, to, subject, body, options = {}) {
     let messageParts = [];
 
     // Basic Headers
-    messageParts.push(`To: <${to}>`);
+    messageParts.push(`To: ${to}`);
+    if (options.cc) messageParts.push(`Cc: ${options.cc}`);
     if (options.bcc) messageParts.push(`Bcc: ${options.bcc}`);
     messageParts.push(`Subject: ${utf8Subject}`);
     messageParts.push('MIME-Version: 1.0');
 
-    if (inReplyTo) messageParts.push(`In-Reply-To: ${inReplyTo}`);
-    if (references) messageParts.push(`References: ${references}`);
+    if (inReplyTo) {
+        const formattedInReplyTo = inReplyTo.startsWith('<') ? inReplyTo : `<${inReplyTo}>`;
+        messageParts.push(`In-Reply-To: ${formattedInReplyTo}`);
+    }
+    if (references) {
+        const formattedReferences = references.split(/\s+/).map(ref => (ref.startsWith('<') ? ref : `<${ref}>`)).join(' ');
+        messageParts.push(`References: ${formattedReferences}`);
+    }
 
     if (attachments.length > 0) {
         messageParts.push(`Content-Type: multipart/mixed; boundary="${boundary}"`);
@@ -92,7 +99,7 @@ export async function sendEmail(accessToken, to, subject, body, options = {}) {
         messageParts.push(body);
     }
 
-    const message = messageParts.join('\n');
+    const message = messageParts.join('\r\n');
 
     // The body needs to be base64url encoded.
     const encodedMessage = Buffer.from(message)

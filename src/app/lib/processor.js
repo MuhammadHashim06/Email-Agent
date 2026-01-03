@@ -512,6 +512,8 @@ export async function processEmailAttachments(accessToken, message) {
     const manifest = {
         messageId,
         threadId: message.threadId,
+        messageIdHeader: getHeader(message.payload.headers, 'Message-ID'),
+        references: getHeader(message.payload.headers, 'References'),
         subject: getHeader(message.payload.headers, 'Subject'),
         from: getHeader(message.payload.headers, 'From'),
         date: getHeader(message.payload.headers, 'Date'),
@@ -625,10 +627,11 @@ T&ouml;lzer Stra&szlig;e 37<br>
                 try {
                     await sendEmail(accessToken, recipient, replySubject, replyBody, {
                         threadId: manifest.threadId,
-                        inReplyTo: manifest.messageId,
-                        references: manifest.messageId,
-                        cc: '2021se6@student.uet.edu.pk',
-                        bcc: '2021se43@student.uet.edu.pk', // Added BCC
+                        inReplyTo: manifest.messageIdHeader, // Use the actual Message-ID header
+                        references: manifest.references
+                            ? `${manifest.references} ${manifest.messageIdHeader}`
+                            : manifest.messageIdHeader,
+                        bcc: 'support@sachnet.de',
                         attachments: [{
                             name: 'Stellungnahme.pdf',
                             type: 'application/pdf',

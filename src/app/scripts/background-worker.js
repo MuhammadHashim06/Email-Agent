@@ -4,7 +4,9 @@ import { google } from "googleapis";
 
 // Re-using project logic
 import { processEmailAttachments } from "../lib/processor.js";
-import { connectToDatabase, User, AppState } from "../lib/db.mjs";
+import { connectToDatabase, User, AppState, EmailLog } from "../lib/db.mjs";
+
+let isWorkerRunning = false;
 
 async function getGmailClient(accessToken) {
     const auth = new google.auth.OAuth2(
@@ -97,6 +99,15 @@ async function checkEmailsForUser(email, userData) {
 
         for (const msg of messages) {
             if (!processedIds.includes(msg.id)) {
+                // Double check against EmailLog to prevent duplicates if someone deleted AppState
+                const existingLog = await EmailLog.findOne({ messageId: msg.id });
+                if (existingLog && ['analyzing', 'processed', 'replied', 'received'].includes(existingLog.status)) {
+                    console.log(`[Worker] Skipping email already being handled or finished: ${msg.id} (Status: ${existingLog.status})`);
+                    processedIds.push(msg.id);
+                    newProcessed = true;
+                    continue;
+                }
+
                 const fullMsgRes = await gmail.users.messages.get({ userId: 'me', id: msg.id });
                 const fullMsg = fullMsgRes.data;
                 const internalDate = parseInt(fullMsg.internalDate);
@@ -105,25 +116,48 @@ async function checkEmailsForUser(email, userData) {
                     // console.log(`[Worker] Skipping old email: ${msg.id} (Received: ${new Date(internalDate).toISOString()})`);
                     processedIds.push(msg.id); // Mark as processed so we don't fetch it again
                     newProcessed = true;
+
+                    // Update DB immediately for old emails too
+                    await AppState.findOneAndUpdate(
+                        { key: 'processed_ids' },
+                        { $addToSet: { value: msg.id } },
+                        { upsert: true }
+                    );
                     continue;
                 }
 
                 console.log(`[Worker] New email for ${email}: ${msg.id}`);
-                await processEmailAttachments(accessToken, fullMsg);
 
+                // Mark as processing in processedIds to prevent other loops if they happen to start
                 processedIds.push(msg.id);
-                newProcessed = true;
+                await AppState.findOneAndUpdate(
+                    { key: 'processed_ids' },
+                    { $addToSet: { value: msg.id } },
+                    { upsert: true }
+                );
+
+                try {
+                    await processEmailAttachments(accessToken, fullMsg);
+                    newProcessed = true;
+                } catch (procErr) {
+                    console.error(`[Worker] Failed to process ${msg.id}:`, procErr.message);
+                    // Optionally remove from processedIds if we want to retry, but usually we don't want to loop forever
+                }
             }
         }
 
         if (newProcessed) {
             // Keep state manageable
-            if (processedIds.length > 1000) processedIds = processedIds.slice(-1000);
-            await AppState.findOneAndUpdate(
-                { key: 'processed_ids' },
-                { value: processedIds },
-                { upsert: true }
-            );
+            stateDoc = await AppState.findOne({ key: 'processed_ids' });
+            let currentIds = stateDoc ? stateDoc.value : [];
+            if (currentIds.length > 1000) {
+                currentIds = currentIds.slice(-1000);
+                await AppState.findOneAndUpdate(
+                    { key: 'processed_ids' },
+                    { value: currentIds },
+                    { upsert: true }
+                );
+            }
         }
 
     } catch (error) {
@@ -132,6 +166,11 @@ async function checkEmailsForUser(email, userData) {
 }
 
 async function runWorker() {
+    if (isWorkerRunning) {
+        console.log("[Worker] A cycle is already running. Skipping this one.");
+        return;
+    }
+    isWorkerRunning = true;
     console.log(`[Worker] Started cycle at ${new Date().toISOString()}`);
     try {
         await connectToDatabase();
@@ -139,6 +178,7 @@ async function runWorker() {
 
         if (users.length === 0) {
             console.log("[Worker] No users in database. Waiting for log-ins...");
+            isWorkerRunning = false;
             return;
         }
 
@@ -148,6 +188,9 @@ async function runWorker() {
         }
     } catch (err) {
         console.error("[Worker] Global Error:", err);
+    } finally {
+        isWorkerRunning = false;
+        console.log(`[Worker] Finished cycle at ${new Date().toISOString()}`);
     }
 }
 
