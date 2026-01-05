@@ -12,8 +12,8 @@ const execFileAsync = promisify(execFile);
 
 /**
  * Usage:
- *   OPENAI_API_KEY=... node process_email_json.mjs ./email.json --out ./final_output.json
- *   node process_email_json.mjs ./input.json --out ./final_output.json
+ *   OPENAI_API_KEY=... node process_email_json.js ./email.json --out ./final_output.json
+ *   node process_email_json.js ./input.json --out ./final_output.json
  *
  * Notes:
  * - Requires LibreOffice installed for DOC/DOCX conversion:
