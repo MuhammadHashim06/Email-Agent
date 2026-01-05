@@ -1,0 +1,74 @@
+﻿=== USER DIAGNOSTICS ===
+User in DB: "einspruch@sachnet-portal.de" (ID: 694f787b3810700a7e00c8b7)
+
+=== RECENT EMAIL LOGS (Last 15) ===
+Thread: 19b83c76b64cf8fe | MsgID: 19b83c76b64cf8fe | Status: replied
+  From: Muhammad Hashim <muhammad.hashimsix@gmail.com>
+  Subj: Ablehnung Restnutzungsdauergutachten (2nd test)
+  Snip: Sehr geehrte Damen und Herren, anbei finden Sie Ihre Stellungnahme zur Ablehnungsbegr├╝ndung Ihres Re
+  Updated: 2026-01-03T12:19:58.074Z
+-----------------------------------------
+Thread: 19b83b90604ae101 | MsgID: 19b83b90604ae101 | Status: replied
+  From: Muhammad Hashim <muhammad.hashimsix@gmail.com>
+  Subj: Ablehnung Restnutzungsdauergutachten (testing locally)
+  Snip: Sehr geehrte Damen und Herren, anbei finden Sie Ihre Stellungnahme zur Ablehnungsbegr├╝ndung Ihres Re
+  Updated: 2026-01-03T12:03:57.923Z
+-----------------------------------------
+Thread: 19b832fd16886348 | MsgID: 19b832fd16886348 | Status: replied
+  From: Muhammad Hashim <muhammad.hashimsix@gmail.com>
+  Subj: Ablehnung Restnutzungsdauergutachten
+  Snip: Sehr geehrte Damen und Herren, anbei finden Sie Ihre Stellungnahme zur Ablehnungsbegr├╝ndung Ihres Re
+  Updated: 2026-01-03T10:29:07.799Z
+-----------------------------------------
+Thread: 19b8334815122135 | MsgID: 19b8334815122135 | Status: replied
+  From: Muhammad Hashim <muhammad.hashimsix@gmail.com>
+  Subj: Ablehnung Restnutzungsdauergutachten
+  Snip: Sehr geehrte Damen und Herren, anbei finden Sie Ihre Stellungnahme zur Ablehnungsbegr├╝ndung Ihres Re
+  Updated: 2026-01-03T10:21:44.698Z
+-----------------------------------------
+Thread: 19b833bf13cb2f7a | MsgID: 19b833bf13cb2f7a | Status: replied
+  From: Muhammad Hashim <muhammad.hashimsix@gmail.com>
+  Subj: Ablehnung Restnutzungsdauergutachten
+  Snip: Sehr geehrte Damen und Herren, anbei finden Sie Ihre Stellungnahme zur Ablehnungsbegr├╝ndung Ihres Re
+  Updated: 2026-01-03T10:18:41.643Z
+-----------------------------------------
+Thread: 19b833f1aa18e429 | MsgID: 19b833f1aa18e429 | Status: skipped
+  From: Muhammad Hashim <muhammad.hashimsix@gmail.com>
+  Subj: Follow up email
+  Snip: let&#39;s check if it reply this email
+  Updated: 2026-01-03T10:13:11.526Z
+-----------------------------------------
+Thread: 19b8342473c3a9ef | MsgID: 19b8342473c3a9ef | Status: replied
+  From: Muhammad Hashim <muhammad.hashimsix@gmail.com>
+  Subj: Ablehnung Restnutzungsdauergutachten (Testing)
+  Snip: Sehr geehrte Damen und Herren, anbei finden Sie Ihre Stellungnahme zur Ablehnungsbegr├╝ndung Ihres Re
+  Updated: 2026-01-03T10:13:04.531Z
+-----------------------------------------
+Thread: 19b5e78cd6e98093 | MsgID: 19b5e78cd6e98093 | Status: skipped
+  From: Muhammad Hashim <muhammad.hashimsix@gmail.com>
+  Subj: Follow up
+  Snip: this is a follow up to check how its perform on negative email ie which should not process
+  Updated: 2025-12-27T06:22:35.025Z
+-----------------------------------------
+Thread: 19b5cb836a42ab51 | MsgID: 19b5cb836a42ab51 | Status: processed
+  From: Muhammad Hashim <muhammad.hashimsix@gmail.com>
+  Subj: Ablehnung Restnutzungsdauergutachten
+  Snip: Betreff: Ablehnung Restnutzungsdauergutachten Sehr geehrte Damen und Herren, Anbei meine Ablehnung f
+  Updated: 2025-12-27T06:18:49.835Z
+-----------------------------------------
+Thread: 19b5ce634d78dc3f | MsgID: 19b5ce634d78dc3f | Status: processed
+  From: Muhammad Hashim <muhammad.hashimsix@gmail.com>
+  Subj: Ablehnung Restnutzungsdauergutachten
+  Snip: Betreff: Ablehnung Restnutzungsdauergutachten Sehr geehrte Damen und Herren, Anbei meine Ablehnung f
+  Updated: 2025-12-27T06:18:58.273Z
+-----------------------------------------
+Thread: 19b5cef599f19937 | MsgID: 19b5cef599f19937 | Status: analyzing
+  From: Muhammad Hashim <muhammad.hashimsix@gmail.com>
+  Subj: Ablehnung Restnutzungsdauergutachten
+  Snip: Betreff: Ablehnung Restnutzungsdauergutachten Sehr geehrte Damen und Herren, Anbei meine Ablehnung f
+  Updated: 2025-12-27T06:19:03.286Z
+-----------------------------------------
+
+=== APPSTATE CHECK ===
+Found 1 'processed_ids' documents.
+Total IDs in first doc: 18

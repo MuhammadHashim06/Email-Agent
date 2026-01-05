@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-    title: "Gmail Clone",
-    description: "A Gmail clone built with Next.js and Google OAuth",
+    title: "Replio",
+    description: "A Replio built with Next.js and Google OAuth",
 };
 
 export default function RootLayout({

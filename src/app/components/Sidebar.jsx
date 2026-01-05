@@ -16,7 +16,7 @@ export default function Sidebar({ setComposeOpen, currentLabel = 'inbox' }) {
             <div>
                 <div className="mb-6">
                     <Link href="/" className="text-xl font-bold text-gray-700 flex items-center gap-2">
-                        Gmail Clone
+                        Replio
                     </Link>
                 </div>
 

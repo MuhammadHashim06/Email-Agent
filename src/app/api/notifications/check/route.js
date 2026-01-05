@@ -1,91 +1,49 @@
 import { auth } from "../../../auth";
-import { listMessages, getGmailClient } from "../../../lib/gmail";
-import { processEmailAttachments } from "../../../lib/processor";
 import { NextResponse } from "next/server";
-import { connectToDatabase, AppState } from "../../../lib/db.mjs";
+import { connectToDatabase, Notification } from "../../../lib/db.mjs";
 
 export async function GET(req) {
     const session = await auth();
-    if (!session || !session.accessToken) {
+    if (!session || !session.user || !session.user.email) {
         return new NextResponse("Unauthorized", { status: 401 });
     }
 
     try {
         await connectToDatabase();
 
-        // Load state from DB
-        const stateDoc = await AppState.findOne({ key: 'processed_ids' });
-        let processedIds = stateDoc ? stateDoc.value : [];
+        // Fetch unread notifications for this user
+        const notifications = await Notification.find({
+            userEmail: session.user.email,
+            isRead: false
+        }).sort({ createdAt: 1 }); // Oldest first to show in order, or desc for newest
 
-        let timeDoc = await AppState.findOne({ key: 'activation_time' });
-        if (!timeDoc) {
-            const now = Date.now();
-            timeDoc = await AppState.findOneAndUpdate(
-                { key: 'activation_time' },
-                { value: now },
-                { upsert: true, new: true }
-            );
-        }
-        const activationTime = timeDoc.value;
-
-        const gmail = await getGmailClient(session.accessToken);
-        const res = await gmail.users.messages.list({
-            userId: 'me',
-            maxResults: 5, // Just check the latest 5
-            q: 'in:inbox'
-        });
-
-        const messages = res.data.messages || [];
-        const newMessages = [];
-        let stateChanged = false;
-
-        for (const msg of messages) {
-            if (!processedIds.includes(msg.id)) {
-                // Fetch full message content for processing
-                const fullMsgRes = await gmail.users.messages.get({
-                    userId: 'me',
-                    id: msg.id
-                });
-                const fullMsg = fullMsgRes.data;
-                const internalDate = parseInt(fullMsg.internalDate);
-
-                if (internalDate < activationTime) {
-                    processedIds.push(msg.id);
-                    stateChanged = true;
-                    continue;
-                }
-
-                // Trigger background processing
-                console.log(`New email detected: ${msg.id}. Processing...`);
-                await processEmailAttachments(session.accessToken, fullMsg);
-
-                newMessages.push({
-                    id: msg.id,
-                    subject: fullMsg.payload.headers.find(h => h.name === 'Subject')?.value || 'No Subject',
-                    from: fullMsg.payload.headers.find(h => h.name === 'From')?.value || 'Unknown',
-                    snippet: fullMsg.snippet
-                });
-
-                processedIds.push(msg.id);
-                stateChanged = true;
-            }
+        if (notifications.length === 0) {
+            return NextResponse.json({
+                newCount: 0,
+                alerts: []
+            });
         }
 
-        if (stateChanged) {
-            // Keep state manageable
-            if (processedIds.length > 500) {
-                processedIds = processedIds.slice(-500);
-            }
-            await AppState.findOneAndUpdate(
-                { key: 'processed_ids' },
-                { value: processedIds },
-                { upsert: true }
-            );
-        }
+        // Format for frontend
+        const alerts = notifications.map(n => ({
+            id: n._id.toString(),
+            subject: n.message, // Dashboard expects 'subject'
+            from: 'System',     // or extract from message if needed
+            snippet: n.message
+        }));
+
+        // IMPORTANT: Mark them as read so they don't show up again in the next poll
+        // If the frontend crashes, these are lost to the "toast" view, but that's standard for toasts.
+        // Alternatively, we could wait for a POST /ack from frontend, but this is simpler.
+        const ids = notifications.map(n => n._id);
+        await Notification.updateMany(
+            { _id: { $in: ids } },
+            { $set: { isRead: true } }
+        );
 
         return NextResponse.json({
-            newCount: newMessages.length,
-            alerts: newMessages
+            newCount: alerts.length,
+            alerts: alerts
         });
 
     } catch (error) {

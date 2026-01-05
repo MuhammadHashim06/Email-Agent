@@ -1,0 +1,18 @@
+﻿=== CHECKING INDEXES FOR EmailLog ===
+Existing indexes: {
+  "_id_": [
+    [
+      "_id",
+      1
+    ]
+  ],
+  "messageId_1": [
+    [
+      "messageId",
+      1
+    ]
+  ]
+}
+
+Attempting to ensure unique index on messageId...
+Unique index ensured.

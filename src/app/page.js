@@ -12,7 +12,7 @@
 //         return (
 //             <div className="flex h-screen w-full items-center justify-center bg-gray-50">
 //                 <div className="text-center p-8 bg-white rounded-xl shadow-lg">
-//                     <h1 className="text-2xl font-bold mb-4">Welcome to Gmail Clone</h1>
+//                     <h1 className="text-2xl font-bold mb-4">Welcome to Replio</h1>
 //                     <p className="mb-6 text-gray-600">Please sign in to access your emails.</p>
 //                     <form
 //                         action={async () => {
@@ -79,7 +79,7 @@ export default async function Home(props) {
         return (
             <div className="flex h-screen w-full items-center justify-center bg-gray-50">
                 <div className="text-center p-8 bg-white rounded-xl shadow-lg">
-                    <h1 className="text-2xl font-bold mb-4">Welcome to Gmail Clone</h1>
+                    <h1 className="text-2xl font-bold mb-4">Welcome to Replio</h1>
                     <p className="mb-6 text-gray-600">Please sign in to access your emails.</p>
                     <form
                         action={async () => {

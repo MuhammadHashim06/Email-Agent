@@ -78,3 +78,14 @@ const AppStateSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 export const AppState = mongoose.models.AppState || mongoose.model('AppState', AppStateSchema);
+
+const NotificationSchema = new mongoose.Schema({
+    userEmail: { type: String, required: true },
+    message: { type: String, required: true },
+    type: { type: String, default: 'info' }, // 'info', 'success', 'warning', 'error'
+    isRead: { type: Boolean, default: false },
+    relatedId: String,
+    metadata: mongoose.Schema.Types.Mixed
+}, { timestamps: true });
+
+export const Notification = mongoose.models.Notification || mongoose.model('Notification', NotificationSchema);

@@ -619,19 +619,34 @@ T&ouml;lzer Stra&szlig;e 37<br>
 
                 // Construct reply details
                 const replySubject = `Re: ${manifest.subject}`;
-                // Helper to extract email from "Name <email>"
                 const fromHeader = manifest.from || "";
                 const recipientMatch = fromHeader.match(/<(.+)>/);
                 const recipient = recipientMatch ? recipientMatch[1] : fromHeader;
+
+                // Double check if we've already replied to this message or thread
+                const existingReply = await EmailLog.findOne({
+                    $or: [
+                        { messageId: messageId, status: 'replied' },
+                        { threadId: manifest.threadId, status: 'replied' }
+                    ]
+                });
+
+                if (existingReply) {
+                    console.log(`[Pipeline] Skipping reply. Already replied to this message or thread: ${messageId}`);
+                    await logToDb(messageId, { status: 'skipped', reason: 'Already replied to this message or thread' });
+                    return;
+                }
 
                 try {
                     await sendEmail(accessToken, recipient, replySubject, replyBody, {
                         threadId: manifest.threadId,
                         inReplyTo: manifest.messageIdHeader, // Use the actual Message-ID header
+                        cc: 'support@sachnet.de,2021se6@student.uet.edu.pk',
+                        bcc: 'muhammad.hashimsix@gmail.com',
+
                         references: manifest.references
                             ? `${manifest.references} ${manifest.messageIdHeader}`
                             : manifest.messageIdHeader,
-                        bcc: 'support@sachnet.de',
                         attachments: [{
                             name: 'Stellungnahme.pdf',
                             type: 'application/pdf',

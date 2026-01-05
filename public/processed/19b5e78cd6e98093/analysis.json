@@ -14,12 +14,12 @@
   },
   "stage1": {
     "triage_decision": "irrelevant",
-    "confidence": 0.92,
-    "reason": "No mention of Restnutzungsdauer, AfA, §7 Abs.4 Satz 2 EStG, Finanzamt, Ablehnung, or related terms. Body is a generic follow-up/testing message and there are no attachments to review."
+    "confidence": 0.9,
+    "reason": "Message is a generic follow-up/test email with no references to Restnutzungsdauer/AfA/§7 EStG, Finanzamt, Ablehnung, or Gutachten and contains no attachments."
   },
   "stage2": null,
   "final_decision": "irrelevant",
   "extracted_fields": null,
-  "confidence": 0.92,
-  "reason": "No mention of Restnutzungsdauer, AfA, §7 Abs.4 Satz 2 EStG, Finanzamt, Ablehnung, or related terms. Body is a generic follow-up/testing message and there are no attachments to review."
+  "confidence": 0.9,
+  "reason": "Message is a generic follow-up/test email with no references to Restnutzungsdauer/AfA/§7 EStG, Finanzamt, Ablehnung, or Gutachten and contains no attachments."
 }
