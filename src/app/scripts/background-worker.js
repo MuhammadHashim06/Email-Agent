@@ -156,7 +156,9 @@ async function checkEmailsForUser(email, userData) {
         // const afterSeconds = 1767558600;  // Matches 1:30 AM your time
         // const beforeSeconds = 1767559200; // Matches 1:40 AM your time
 
-        console.log("Searching Local Time: 01:30 AM - 01:40 AM");
+        const startTimeStr = new Date(afterSeconds * 1000).toLocaleString();
+        const endTimeStr = new Date(beforeSeconds * 1000).toLocaleString();
+        console.log(`Searching Local Time: ${startTimeStr} - ${endTimeStr}`);
         console.log("afterSeconds (UTC):", afterSeconds);
         console.log("beforeSeconds (UTC):", beforeSeconds);
         // Ensure the query is tight
